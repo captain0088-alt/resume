@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlansStores.com - Sell 3D Models, House Plans, and Create Posters</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: linear-gradient(to right, #3498db, #2980b9);
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h2 {
+            margin-bottom: 20px;
+        }
+        .btn {
+            background: #e74c3c;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .product-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .product {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        .product img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 15px 0;
+        }
+        .product p {
+            margin: 10px 0;
+        }
+        .product button {
+            background: #27ae60;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .custom-poster {
+            background: #ecf0f1;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .custom-poster form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .custom-poster input, .custom-poster textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PlansStores.com</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#3d-models">3D Models</a></li>
+                    <li><a href="#house-plans">House Plans</a></li>
+                    <li><a href="#posters">Create Posters</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to PlansStores.com</h2>
+            <p>Your ultimate destination for high-quality 3D models, detailed house plans, and custom poster creation. Bring your ideas to life!</p>
+            <a href="#3d-models" class="btn">Explore Products</a>
+        </div>
+    </section>
+
+    <section id="3d-models" class="section">
+        <div class="container">
+            <h2>3D Models</h2>
+            <p>Download premium 3D models for architecture, gaming, and design projects.</p>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://via.placeholder.com/300x200?text=3D+Model+1" alt="Modern House 3D Model">
+                    <h3>Modern House 3D Model</h3>
+                    <p>$19.99 - High-detail model for rendering.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/300x200?text=3D+Model+2" alt="Furniture Set 3D Model">
+                    <h3>Furniture Set 3D Model</h3>
+                    <p>$14.99 - Complete interior set.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/300x200?text=3D+Model+3" alt="Vehicle 3D Model">
+                    <h3>Vehicle 3D Model</h3>
+                    <p>$24.99 - Realistic car model.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="house-plans" class="section">
+        <div class="container">
+            <h2>House Plans</h2>
+            <p>Professional blueprints and floor plans for your dream home.</p>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://via.placeholder.com/300x200?text=House+Plan+1" alt="Two-Story House Plan">
+                    <h3>Two-Story House Plan</h3>
+                    <p>$39.99 - Includes 4 bedrooms and 3 baths.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/300x200?text=House+Plan+2" alt="Modern Villa Plan">
+                    <h3>Modern Villa Plan</h3>
+                    <p>$49.99 - Luxury design with pool area.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/300x200?text=House+Plan+3" alt="Cabin Plan">
+                    <h3>Rustic Cabin Plan</h3>
+                    <p>$29.99 - Cozy retreat blueprint.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="posters" class="section">
+        <div class="container">
+            <h2>Create Custom Posters</h2>
+            <p>Design and order personalized posters for events, promotions, or decor.</p>
+            <div class="custom-poster">
+                <form action="#" method="post">
+                    <input type="text" name="title" placeholder="Poster Title" required>
+                    <textarea name="description" placeholder="Describe your poster design (e.g., colors, theme)" rows="4" required></textarea>
+                    <input type="number" name="quantity" placeholder="Quantity" min="1" required>
+                    <button type="submit" class="btn">Submit Design Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 PlansStores.com. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
